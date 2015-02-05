@@ -7,23 +7,60 @@
 //
 
 #import "KAViewController.h"
+#import <UIViewController-KeyboardAdditions/UIViewController+KeyboardAdditions.h>
 
 @interface KAViewController ()
+
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *containerViewBottomConstraint;
 
 @end
 
 @implementation KAViewController
 
-- (void)viewDidLoad
-{
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    // register to keyboard notifications
+    [self ka_startObservingKeyboardNotifications];
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    
+    // unregister from keyboard notifications
+    [self ka_stopObservingKeyboardNotifications];
+}
+
+#pragma mark - KAKeyboardAdditions
+
+- (void)ka_keyboardWillShowOrHideWithHeight:(CGFloat)height
+                          animationDuration:(NSTimeInterval)animationDuration
+                             animationCurve:(UIViewAnimationCurve)animationCurve {
+    
+    NSLog(@"Will %@ with height = %f, duration = %f",
+              self.ka_isKeyboardPresented ? @"show" : @"hide",
+              height,
+              animationDuration);
+}
+
+- (void)ka_keyboardShowOrHideAnimationWithHeight:(CGFloat)height
+                               animationDuration:(NSTimeInterval)animationDuration
+                                  animationCurve:(UIViewAnimationCurve)animationCurve {
+    
+    self.containerViewBottomConstraint.constant = height;
+    [self.view layoutIfNeeded];
+}
+
+- (void)ka_keyboardShowOrHideAnimationDidFinishedWithHeight:(CGFloat)height {
+    
+    NSLog(@"Animation finished with height = %f", height);
+}
+
+#pragma mark - UITextFieldDelegate
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return YES;
 }
 
 @end

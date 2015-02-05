@@ -1,38 +1,22 @@
-#
-# Be sure to run `pod lib lint UIViewController-KeyboardAdditions.podspec' to ensure this is a
-# valid spec and remove all comments before submitting the spec.
-#
-# Any lines starting with a # are optional, but encouraged
-#
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = "UIViewController-KeyboardAdditions"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of UIViewController-KeyboardAdditions."
+  s.version          = "1.0"
+  s.summary          = "Tiny UIViewController category that provides handy way for keyboard handling logic."
   s.description      = <<-DESC
-                       An optional longer description of UIViewController-KeyboardAdditions
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       `UIViewController+KeyboardAdditions` category simplifies keyboard handling logic by extending UIViewController class with several simple methods.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/UIViewController-KeyboardAdditions"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/podkovyrin/UIViewController-KeyboardAdditions"
   s.license          = 'MIT'
   s.author           = { "Andrew Podkovyrin" => "podkovyrin@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/UIViewController-KeyboardAdditions.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/podkovyrin/UIViewController-KeyboardAdditions.git", :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/podkovyr'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
-  s.resource_bundles = {
-    'UIViewController-KeyboardAdditions' => ['Pod/Assets/*.png']
-  }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.frameworks = 'UIKit'
 end
