@@ -4,6 +4,10 @@
 [![License](https://img.shields.io/cocoapods/l/UIViewController-KeyboardAdditions.svg?style=flat)](http://cocoadocs.org/docsets/UIViewController-KeyboardAdditions)
 [![Platform](https://img.shields.io/cocoapods/p/UIViewController-KeyboardAdditions.svg?style=flat)](http://cocoadocs.org/docsets/UIViewController-KeyboardAdditions)
 
+## Swift Version
+
+For Swift compatible version check out [Keyboardy](https://github.com/podkovyrin/Keyboardy)
+
 ## Description
 
 `UIViewController+KeyboardAdditions` category simplifies keyboard handling logic by extending UIViewController class with several simple methods.
