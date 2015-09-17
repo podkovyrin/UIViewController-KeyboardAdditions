@@ -97,8 +97,9 @@
     // When keyboard is hiding, the height value from UIKeyboardFrameEndUserInfoKey sometimes is incorrect
     // Sets it manually to 0
     CGRect keyboardFrame = [userInfo[UIKeyboardFrameEndUserInfoKey] CGRectValue];
+    CGRect convertedRect = [self.view convertRect:keyboardFrame fromView:nil];
     BOOL isShowNotification = [notification.name isEqualToString:UIKeyboardWillShowNotification];
-    CGFloat keyboardHeight = isShowNotification ? CGRectGetHeight(keyboardFrame) : 0.0;
+    CGFloat keyboardHeight = isShowNotification ? CGRectGetHeight(convertedRect) : 0.0;
     
     [self ka_setKeyboardHeight:keyboardHeight];
     
