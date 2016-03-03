@@ -32,6 +32,8 @@
  */
 @protocol KAKeyboardAdditions <NSObject>
 
+@optional
+
 /**
  Notifies the view controller that the keyboard will show or hide with specified parameters. This method is called before keyboard animation.
  
