@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UIViewController-KeyboardAdditions"
-  s.version          = "1.2"
+  s.version          = "1.2.1"
   s.summary          = "Tiny UIViewController category that provides handy way for keyboard handling logic."
   s.description      = <<-DESC
                        `UIViewController+KeyboardAdditions` category simplifies keyboard handling logic by extending UIViewController class with several simple methods.
