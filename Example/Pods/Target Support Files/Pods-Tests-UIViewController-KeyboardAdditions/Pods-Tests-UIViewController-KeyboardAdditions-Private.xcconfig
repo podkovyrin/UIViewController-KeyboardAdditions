@@ -1,5 +1,0 @@
-#include "Pods-Tests-UIViewController-KeyboardAdditions.xcconfig"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/UIViewController-KeyboardAdditions" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/UIViewController-KeyboardAdditions"
-OTHER_LDFLAGS = ${PODS_TESTS_UIVIEWCONTROLLER_KEYBOARDADDITIONS_OTHER_LDFLAGS} -ObjC
-PODS_ROOT = ${SRCROOT}
