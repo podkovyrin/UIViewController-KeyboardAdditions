@@ -1,1504 +1,621 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>02BDEE45A6240C68BA0FD4DF</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D31CAC40BBF8F571A7060A96</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>04522BB00DD82261A5B36A4A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CBB08ED032C76AED16614024</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-UIViewController-KeyboardAdditions/Pods-Tests-UIViewController-KeyboardAdditions-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>07865263ACD104EC5287E2A9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A783D2B98C7A11DC0A97DC7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>744E44396D0AC1E7F59BA3BC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>0BD7195E81C9DAF77D1F0EB6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-UIViewController-KeyboardAdditions.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1500FF8070933C5C3C018E8F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6B6B5BAF0E81BC735D7DBBD2</string>
-				<string>A5D248664F526E918AB0AE37</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UIViewController-KeyboardAdditions</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>18B8BEA35698DF069846A518</key>
-		<dict>
-			<key>fileRef</key>
-			<string>927D93C124E2481024B08E35</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>1D4C92B628BEACD826F7EB94</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>E2760B3160ED23AF8A341F3A</string>
-				<string>BCF468535518E315682C76B2</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>1D50C0CAB634519731DF4F7A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>1500FF8070933C5C3C018E8F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>299EA4DE293DE44B287240C9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>29E972ADEC46D2B63ABFED6F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5678349A3544B4E7D492C18E</string>
-				<string>5064476ADADEF9A31DB2F78F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2CA44C16BAA4518B8FFCC595</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>879A48BAD0147D1D195D2B9C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2D4DC18F910A3C8E199B31C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>33F06DC431DF6D838D8E40D7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8684E7641CC7D62B09A91CDF</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8956E4C6D552DEF7A16BA438</string>
-				<string>2CA44C16BAA4518B8FFCC595</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>A3F29B138B0F22B6724294FE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>productName</key>
-			<string>Pods-Tests</string>
-			<key>productReference</key>
-			<string>3DC60CA0A0F907E54A35B2A1</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>34488B686DC746850A0B01E8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>44F70569F81334FCD33BDBFD</string>
-				<string>522CB29707BC60BA0E1F2415</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>36FF83CA74921337D36EF581</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-UIViewController-KeyboardAdditions-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>39AD291A031010A3B6B80B1C</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>3B00E0E3AECE8FF7F6884B2A</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>3D97E44285C8FEC875B8C5C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-UIViewController-KeyboardAdditions-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DC60CA0A0F907E54A35B2A1</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Tests.a</string>
-			<key>path</key>
-			<string>libPods-Tests.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>41BF76A9D1263DD77DCA7CD6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B70320E4C1B302C5F04A74F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>441B01BF2163349756760810</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-UIViewController-KeyboardAdditions.a</string>
-			<key>path</key>
-			<string>libPods-UIViewController-KeyboardAdditions.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>44F70569F81334FCD33BDBFD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>536F0AC2DF04E50EF145A9DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>482B6DFBBF0B4647932D4786</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CBB08ED032C76AED16614024</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-Tests-UIViewController-KeyboardAdditions/Pods-Tests-UIViewController-KeyboardAdditions-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>49A26F04C92E6EF30DB64EEA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CCB72B93EC38A5C7876DE73</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>4B70320E4C1B302C5F04A74F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIViewController+KeyboardAdditions.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5064476ADADEF9A31DB2F78F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CE1CF2D2A0FB1FACFDA97C9A</string>
-				<string>E13C010307E2D2513D154098</string>
-				<string>D31CAC40BBF8F571A7060A96</string>
-				<string>36FF83CA74921337D36EF581</string>
-				<string>3D97E44285C8FEC875B8C5C4</string>
-				<string>7AF3B6590A6501AFD49D9AAA</string>
-				<string>0BD7195E81C9DAF77D1F0EB6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-UIViewController-KeyboardAdditions</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>50D896FB3039D377971C6814</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4B70320E4C1B302C5F04A74F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>522CB29707BC60BA0E1F2415</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A357A855EA7103DC170E94DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>52FFF78DACADCE178CAA23B4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BEB821574438BEA15F407BAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>536F0AC2DF04E50EF145A9DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5678349A3544B4E7D492C18E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5A03E5B70F1BF795D2A9A9EB</string>
-				<string>F01AAA71163B6A1B4E388232</string>
-				<string>2D4DC18F910A3C8E199B31C4</string>
-				<string>8FCA6882B839E5A3C1C04195</string>
-				<string>F85D41140961E38E9FBA54BB</string>
-				<string>CE5A7390110D9699C4BD5005</string>
-				<string>B47226CE7119D1CE7301E80F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Tests</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Tests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>57EF9795EF9697EBFE4F930A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3DC60CA0A0F907E54A35B2A1</string>
-				<string>FB32D0A9FA626D47FE3CA380</string>
-				<string>441B01BF2163349756760810</string>
-				<string>CBBC1E27BC3A63D173F95583</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5A03E5B70F1BF795D2A9A9EB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>696803DAE2ED69C46406CE99</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>4B70320E4C1B302C5F04A74F</string>
-				<string>A357A855EA7103DC170E94DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6B6B5BAF0E81BC735D7DBBD2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>696803DAE2ED69C46406CE99</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pod</string>
-			<key>path</key>
-			<string>Pod</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F0B983AF4A363461D3725CC</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>1D4C92B628BEACD826F7EB94</string>
-			<key>buildPhases</key>
-			<array>
-				<string>F9186F9547B8B47A2B166C33</string>
-				<string>A4466E34CE555715C1CB403C</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>7E4384C6877DA9F79C30334F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions</string>
-			<key>productName</key>
-			<string>Pods-UIViewController-KeyboardAdditions</string>
-			<key>productReference</key>
-			<string>441B01BF2163349756760810</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7401A49DC66EDB8492DDD8B8</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>890372848DCEB0ACA6D63ACC</string>
-				<string>18B8BEA35698DF069846A518</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>744E44396D0AC1E7F59BA3BC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-dummy.m</string>
-			<key>path</key>
-			<string>../Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>75EF08B43B02BB71B29ECD26</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>41BF76A9D1263DD77DCA7CD6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>7A770EFC5862211ECFAE3C74</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E1BE16E66551903B304FDC39</string>
-			<key>buildPhases</key>
-			<array>
-				<string>947E02E562D67613B0044FAA</string>
-				<string>7401A49DC66EDB8492DDD8B8</string>
-				<string>916DD73607BA926523486D91</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions</string>
-			<key>productName</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions</string>
-			<key>productReference</key>
-			<string>CBBC1E27BC3A63D173F95583</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7AF3B6590A6501AFD49D9AAA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-UIViewController-KeyboardAdditions.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7E4384C6877DA9F79C30334F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions</string>
-			<key>target</key>
-			<string>7A770EFC5862211ECFAE3C74</string>
-			<key>targetProxy</key>
-			<string>8D6ABCE43DC2DFD3B370FA81</string>
-		</dict>
-		<key>7FDEA62A4CB076886BA00B43</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>865B9E95FEBBE566E33D67B7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>927D93C124E2481024B08E35</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8684E7641CC7D62B09A91CDF</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>FDD2E619794D9A00BDB889ED</string>
-				<string>95556200D2C5B79E8FDD2718</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>879A48BAD0147D1D195D2B9C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CCB72B93EC38A5C7876DE73</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>890372848DCEB0ACA6D63ACC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CCB72B93EC38A5C7876DE73</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8956E4C6D552DEF7A16BA438</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>DFD90A5C142B1E5FB177EB6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CCB72B93EC38A5C7876DE73</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>8D6ABCE43DC2DFD3B370FA81</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A88EF788B4A6E8D3A9A25BDA</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>7A770EFC5862211ECFAE3C74</string>
-			<key>remoteInfo</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions</string>
-		</dict>
-		<key>8FB3C72CC4FF7A8D8FC9BC88</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>39AD291A031010A3B6B80B1C</string>
-				<string>3B00E0E3AECE8FF7F6884B2A</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8FCA6882B839E5A3C1C04195</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-environment.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>916DD73607BA926523486D91</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>50D896FB3039D377971C6814</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>927D93C124E2481024B08E35</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>947E02E562D67613B0044FAA</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>0A783D2B98C7A11DC0A97DC7</string>
-				<string>B15EF146F2D909AA48EF37E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>95556200D2C5B79E8FDD2718</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>B47226CE7119D1CE7301E80F</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>97967A28FB372D43034B3015</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>994805DECF2EF9F0A1F7BADB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-prefix.pch</string>
-			<key>path</key>
-			<string>../Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>99FE89F8150E8C55B4AA012D</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>299EA4DE293DE44B287240C9</string>
-				<string>1D50C0CAB634519731DF4F7A</string>
-				<string>52FFF78DACADCE178CAA23B4</string>
-				<string>57EF9795EF9697EBFE4F930A</string>
-				<string>29E972ADEC46D2B63ABFED6F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A357A855EA7103DC170E94DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIViewController+KeyboardAdditions.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A3F29B138B0F22B6724294FE</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions</string>
-			<key>target</key>
-			<string>D8F5966D0AAB71BAD0FE91D2</string>
-			<key>targetProxy</key>
-			<string>F6F18FC18D6E80633FC4755D</string>
-		</dict>
-		<key>A4466E34CE555715C1CB403C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ABBB27BCC9F427DBD35646E7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>A5D248664F526E918AB0AE37</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>07865263ACD104EC5287E2A9</string>
-				<string>CBB08ED032C76AED16614024</string>
-				<string>536F0AC2DF04E50EF145A9DD</string>
-				<string>97967A28FB372D43034B3015</string>
-				<string>7FDEA62A4CB076886BA00B43</string>
-				<string>BE6C8E1E0F3FEF7B5AB295E4</string>
-				<string>744E44396D0AC1E7F59BA3BC</string>
-				<string>994805DECF2EF9F0A1F7BADB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/Pods-Tests-UIViewController-KeyboardAdditions</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A83EE7F1EA758B7FFD279A6D</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BE6C8E1E0F3FEF7B5AB295E4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A88EF788B4A6E8D3A9A25BDA</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8FB3C72CC4FF7A8D8FC9BC88</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>99FE89F8150E8C55B4AA012D</string>
-			<key>productRefGroup</key>
-			<string>57EF9795EF9697EBFE4F930A</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>33F06DC431DF6D838D8E40D7</string>
-				<string>D8F5966D0AAB71BAD0FE91D2</string>
-				<string>6F0B983AF4A363461D3725CC</string>
-				<string>7A770EFC5862211ECFAE3C74</string>
-			</array>
-		</dict>
-		<key>ABBB27BCC9F427DBD35646E7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CCB72B93EC38A5C7876DE73</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B15EF146F2D909AA48EF37E5</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A357A855EA7103DC170E94DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B47226CE7119D1CE7301E80F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCF468535518E315682C76B2</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>0BD7195E81C9DAF77D1F0EB6</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BE6C8E1E0F3FEF7B5AB295E4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-Private.xcconfig</string>
-			<key>path</key>
-			<string>../Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BEB821574438BEA15F407BAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CCB72B93EC38A5C7876DE73</string>
-				<string>927D93C124E2481024B08E35</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CBB08ED032C76AED16614024</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions-Private.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CBBC1E27BC3A63D173F95583</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions.a</string>
-			<key>path</key>
-			<string>libPods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>CE1CF2D2A0FB1FACFDA97C9A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-UIViewController-KeyboardAdditions-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CE5A7390110D9699C4BD5005</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D31CAC40BBF8F571A7060A96</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-UIViewController-KeyboardAdditions-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D8F5966D0AAB71BAD0FE91D2</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>E9A0F4AB64F80C20738E0A7B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>34488B686DC746850A0B01E8</string>
-				<string>F846802D9CC1DD4BB0CC471C</string>
-				<string>75EF08B43B02BB71B29ECD26</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions</string>
-			<key>productName</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions</string>
-			<key>productReference</key>
-			<string>FB32D0A9FA626D47FE3CA380</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>DFD90A5C142B1E5FB177EB6E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D4DC18F910A3C8E199B31C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E13C010307E2D2513D154098</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-UIViewController-KeyboardAdditions-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E1BE16E66551903B304FDC39</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>ED485D76B57E1D2EFF62D07C</string>
-				<string>A83EE7F1EA758B7FFD279A6D</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>E2760B3160ED23AF8A341F3A</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>7AF3B6590A6501AFD49D9AAA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>E9A0F4AB64F80C20738E0A7B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>04522BB00DD82261A5B36A4A</string>
-				<string>482B6DFBBF0B4647932D4786</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>ED485D76B57E1D2EFF62D07C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BE6C8E1E0F3FEF7B5AB295E4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions/Pods-UIViewController-KeyboardAdditions-UIViewController-KeyboardAdditions-prefix.pch</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>F01AAA71163B6A1B4E388232</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F6F18FC18D6E80633FC4755D</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>A88EF788B4A6E8D3A9A25BDA</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D8F5966D0AAB71BAD0FE91D2</string>
-			<key>remoteInfo</key>
-			<string>Pods-Tests-UIViewController-KeyboardAdditions</string>
-		</dict>
-		<key>F846802D9CC1DD4BB0CC471C</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>49A26F04C92E6EF30DB64EEA</string>
-				<string>865B9E95FEBBE566E33D67B7</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>F85D41140961E38E9FBA54BB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F9186F9547B8B47A2B166C33</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>02BDEE45A6240C68BA0FD4DF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FB32D0A9FA626D47FE3CA380</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods-Tests-UIViewController-KeyboardAdditions.a</string>
-			<key>path</key>
-			<string>libPods-Tests-UIViewController-KeyboardAdditions.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FDD2E619794D9A00BDB889ED</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>CE5A7390110D9699C4BD5005</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>$(TARGET_NAME)</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>A88EF788B4A6E8D3A9A25BDA</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F07E4F8510791C890890C8A46BE5AE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		2D3A5DFE087C9E6F0676187C7472FD82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		2FC196CCF67A7C8D1EEBBB3EFCC12076 /* UIViewController+KeyboardAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1477F826C953593D988F2E488E5FB1DE /* UIViewController+KeyboardAdditions.m */; };
+		30376B9751C2C33F75B2C721BF5AD63F /* UIViewController-KeyboardAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D302786BBB5C541EA84867D882C667 /* UIViewController-KeyboardAdditions-dummy.m */; };
+		3441E380E135E059D2AA9A7F2B70A3E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		6D594970444649B0F3883E949D72A69A /* UIViewController+KeyboardAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = EACC8BF161527D224F139596E848362A /* UIViewController+KeyboardAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6556C44F331AF43CD4204861839EEBD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D54CC5C98033B32E9EA650287DA2A062 /* Pods-UIViewController-KeyboardAdditions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B183A1A2376FE23FA8DD19A59AB37D8 /* Pods-UIViewController-KeyboardAdditions-dummy.m */; };
+		E3748756914F2325F3C1EF0DE6BB91CA /* Pods-Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF6F99F450F1990FA16446A35119285F /* Pods-Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BF8342BE2AEA41CA454FB04CC9F4AD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0549F707D871734C8AF95DF3F41E42D;
+			remoteInfo = "UIViewController-KeyboardAdditions";
+		};
+		FB28FB9F23804BFB7D44EACDBEB7DCAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0549F707D871734C8AF95DF3F41E42D;
+			remoteInfo = "UIViewController-KeyboardAdditions";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13A72C6FFCE77C52033F0C774CCA0BD2 /* Pods-UIViewController-KeyboardAdditions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIViewController-KeyboardAdditions.release.xcconfig"; sourceTree = "<group>"; };
+		13D302786BBB5C541EA84867D882C667 /* UIViewController-KeyboardAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController-KeyboardAdditions-dummy.m"; sourceTree = "<group>"; };
+		1477F826C953593D988F2E488E5FB1DE /* UIViewController+KeyboardAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+KeyboardAdditions.m"; path = "Pod/Classes/UIViewController+KeyboardAdditions.m"; sourceTree = "<group>"; };
+		1B183A1A2376FE23FA8DD19A59AB37D8 /* Pods-UIViewController-KeyboardAdditions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UIViewController-KeyboardAdditions-dummy.m"; sourceTree = "<group>"; };
+		1B9F3708D5322FF171CA75C2E2C8FA29 /* Pods-UIViewController-KeyboardAdditions-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UIViewController-KeyboardAdditions-acknowledgements.markdown"; sourceTree = "<group>"; };
+		38D813F0C78FF0D9F19B2D31AEEDF9A3 /* Pods-Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F0ADB718D04DF0D2DAF488BE951B7A7 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5F0733E0A2D2361B0E068D845575EDF9 /* Pods-UIViewController-KeyboardAdditions-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIViewController-KeyboardAdditions-resources.sh"; sourceTree = "<group>"; };
+		61F1EF60146F59BDFA0687278641D610 /* Pods-UIViewController-KeyboardAdditions-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIViewController-KeyboardAdditions-acknowledgements.plist"; sourceTree = "<group>"; };
+		6D85A9EB8140F158398EA178A4F07B3B /* UIViewController-KeyboardAdditions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "UIViewController-KeyboardAdditions.xcconfig"; sourceTree = "<group>"; };
+		6E4BAB18A4A948D6DEE903C92D7B199D /* Pods-UIViewController-KeyboardAdditions-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIViewController-KeyboardAdditions-frameworks.sh"; sourceTree = "<group>"; };
+		724E3598057DCA7E8C901F82993F0825 /* libPods-UIViewController-KeyboardAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-UIViewController-KeyboardAdditions.a"; path = "libPods-UIViewController-KeyboardAdditions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		931CABA11F50836D99C152B98A320CAF /* libUIViewController-KeyboardAdditions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libUIViewController-KeyboardAdditions.a"; path = "libUIViewController-KeyboardAdditions.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1AF5C517CA382B9448D5DB21A7F341B /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-Tests.a"; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F1A2E0824FC8A71E9D249C459F90DC /* Pods-Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B93FC9172B3D23C2EDE21F6D36485F60 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BCE72118FFD7D1E091B72D1280850391 /* Pods-UIViewController-KeyboardAdditions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIViewController-KeyboardAdditions.debug.xcconfig"; sourceTree = "<group>"; };
+		BE9E300EB6BCD5AFBA26F4E63243B666 /* UIViewController-KeyboardAdditions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController-KeyboardAdditions-prefix.pch"; sourceTree = "<group>"; };
+		D02C2CF2B3F2149B78E9F5A34DF9804F /* Pods-Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D5929A1AE210A116EF954F2892B668FD /* Pods-Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Tests-resources.sh"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EACC8BF161527D224F139596E848362A /* UIViewController+KeyboardAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+KeyboardAdditions.h"; path = "Pod/Classes/UIViewController+KeyboardAdditions.h"; sourceTree = "<group>"; };
+		FF6F99F450F1990FA16446A35119285F /* Pods-Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A78359BC1384D1943CC77BF53C079CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3441E380E135E059D2AA9A7F2B70A3E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E4970FC3F3E8B39F3E81507E6DFB084 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6556C44F331AF43CD4204861839EEBD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C057D04DD08ADA172FB6D07411D144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D3A5DFE087C9E6F0676187C7472FD82 /* Foundation.framework in Frameworks */,
+				1F07E4F8510791C890890C8A46BE5AE6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		010C4B2FE9163B4E38A5413E67108E58 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D85A9EB8140F158398EA178A4F07B3B /* UIViewController-KeyboardAdditions.xcconfig */,
+				13D302786BBB5C541EA84867D882C667 /* UIViewController-KeyboardAdditions-dummy.m */,
+				BE9E300EB6BCD5AFBA26F4E63243B666 /* UIViewController-KeyboardAdditions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UIViewController-KeyboardAdditions";
+			sourceTree = "<group>";
+		};
+		3C5903DD31A3C3F306FCD870912F7F99 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				919D467F23FA41DAC702232CF6775321 /* Pods-Tests */,
+				DBB25E0C8B62679643A8BCF2A928AB43 /* Pods-UIViewController-KeyboardAdditions */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				994E1A3081A1F7E6192D019FEAED41A8 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D343096258606A481A24128E95872EFD /* Products */,
+				3C5903DD31A3C3F306FCD870912F7F99 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		919D467F23FA41DAC702232CF6775321 /* Pods-Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B3F1A2E0824FC8A71E9D249C459F90DC /* Pods-Tests-acknowledgements.markdown */,
+				38D813F0C78FF0D9F19B2D31AEEDF9A3 /* Pods-Tests-acknowledgements.plist */,
+				FF6F99F450F1990FA16446A35119285F /* Pods-Tests-dummy.m */,
+				D02C2CF2B3F2149B78E9F5A34DF9804F /* Pods-Tests-frameworks.sh */,
+				D5929A1AE210A116EF954F2892B668FD /* Pods-Tests-resources.sh */,
+				B93FC9172B3D23C2EDE21F6D36485F60 /* Pods-Tests.debug.xcconfig */,
+				4F0ADB718D04DF0D2DAF488BE951B7A7 /* Pods-Tests.release.xcconfig */,
+			);
+			name = "Pods-Tests";
+			path = "Target Support Files/Pods-Tests";
+			sourceTree = "<group>";
+		};
+		994E1A3081A1F7E6192D019FEAED41A8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8391C010AECEDB3612C75BD2ED0CEE9 /* UIViewController-KeyboardAdditions */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D343096258606A481A24128E95872EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AF5C517CA382B9448D5DB21A7F341B /* libPods-Tests.a */,
+				724E3598057DCA7E8C901F82993F0825 /* libPods-UIViewController-KeyboardAdditions.a */,
+				931CABA11F50836D99C152B98A320CAF /* libUIViewController-KeyboardAdditions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8391C010AECEDB3612C75BD2ED0CEE9 /* UIViewController-KeyboardAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				EACC8BF161527D224F139596E848362A /* UIViewController+KeyboardAdditions.h */,
+				1477F826C953593D988F2E488E5FB1DE /* UIViewController+KeyboardAdditions.m */,
+				010C4B2FE9163B4E38A5413E67108E58 /* Support Files */,
+			);
+			name = "UIViewController-KeyboardAdditions";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DBB25E0C8B62679643A8BCF2A928AB43 /* Pods-UIViewController-KeyboardAdditions */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F3708D5322FF171CA75C2E2C8FA29 /* Pods-UIViewController-KeyboardAdditions-acknowledgements.markdown */,
+				61F1EF60146F59BDFA0687278641D610 /* Pods-UIViewController-KeyboardAdditions-acknowledgements.plist */,
+				1B183A1A2376FE23FA8DD19A59AB37D8 /* Pods-UIViewController-KeyboardAdditions-dummy.m */,
+				6E4BAB18A4A948D6DEE903C92D7B199D /* Pods-UIViewController-KeyboardAdditions-frameworks.sh */,
+				5F0733E0A2D2361B0E068D845575EDF9 /* Pods-UIViewController-KeyboardAdditions-resources.sh */,
+				BCE72118FFD7D1E091B72D1280850391 /* Pods-UIViewController-KeyboardAdditions.debug.xcconfig */,
+				13A72C6FFCE77C52033F0C774CCA0BD2 /* Pods-UIViewController-KeyboardAdditions.release.xcconfig */,
+			);
+			name = "Pods-UIViewController-KeyboardAdditions";
+			path = "Target Support Files/Pods-UIViewController-KeyboardAdditions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D117553A1409268234F55CE91D74784F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D594970444649B0F3883E949D72A69A /* UIViewController+KeyboardAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AA21FB2CE2C0D21769CFCBA2142268B /* Pods-UIViewController-KeyboardAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C595F431F400A68C3DF8138A96204EEB /* Build configuration list for PBXNativeTarget "Pods-UIViewController-KeyboardAdditions" */;
+			buildPhases = (
+				6E4B49B45FDEEB199B13169ABC02086F /* Sources */,
+				2E4970FC3F3E8B39F3E81507E6DFB084 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86118FE13FC35F0B2524EBEBF957D7CF /* PBXTargetDependency */,
+			);
+			name = "Pods-UIViewController-KeyboardAdditions";
+			productName = "Pods-UIViewController-KeyboardAdditions";
+			productReference = 724E3598057DCA7E8C901F82993F0825 /* libPods-UIViewController-KeyboardAdditions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9277978A9A033C0CE1308E6B97D754A7 /* Pods-Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F47A51E3C7A76EAB585EED89C80AAF /* Build configuration list for PBXNativeTarget "Pods-Tests" */;
+			buildPhases = (
+				7F08ACE504236CD75C68DB59335A635F /* Sources */,
+				1A78359BC1384D1943CC77BF53C079CF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D67F588B24710BCD8FA1B18F764392E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Tests";
+			productName = "Pods-Tests";
+			productReference = B1AF5C517CA382B9448D5DB21A7F341B /* libPods-Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D0549F707D871734C8AF95DF3F41E42D /* UIViewController-KeyboardAdditions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0406DEF8ADE0C8C312EEA177CCDA0108 /* Build configuration list for PBXNativeTarget "UIViewController-KeyboardAdditions" */;
+			buildPhases = (
+				30D639D3358DE89DCDBDFD759F3FB882 /* Sources */,
+				D3C057D04DD08ADA172FB6D07411D144 /* Frameworks */,
+				D117553A1409268234F55CE91D74784F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIViewController-KeyboardAdditions";
+			productName = "UIViewController-KeyboardAdditions";
+			productReference = 931CABA11F50836D99C152B98A320CAF /* libUIViewController-KeyboardAdditions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D343096258606A481A24128E95872EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9277978A9A033C0CE1308E6B97D754A7 /* Pods-Tests */,
+				1AA21FB2CE2C0D21769CFCBA2142268B /* Pods-UIViewController-KeyboardAdditions */,
+				D0549F707D871734C8AF95DF3F41E42D /* UIViewController-KeyboardAdditions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30D639D3358DE89DCDBDFD759F3FB882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC196CCF67A7C8D1EEBBB3EFCC12076 /* UIViewController+KeyboardAdditions.m in Sources */,
+				30376B9751C2C33F75B2C721BF5AD63F /* UIViewController-KeyboardAdditions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E4B49B45FDEEB199B13169ABC02086F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D54CC5C98033B32E9EA650287DA2A062 /* Pods-UIViewController-KeyboardAdditions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F08ACE504236CD75C68DB59335A635F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3748756914F2325F3C1EF0DE6BB91CA /* Pods-Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86118FE13FC35F0B2524EBEBF957D7CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIViewController-KeyboardAdditions";
+			target = D0549F707D871734C8AF95DF3F41E42D /* UIViewController-KeyboardAdditions */;
+			targetProxy = FB28FB9F23804BFB7D44EACDBEB7DCAD /* PBXContainerItemProxy */;
+		};
+		D67F588B24710BCD8FA1B18F764392E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "UIViewController-KeyboardAdditions";
+			target = D0549F707D871734C8AF95DF3F41E42D /* UIViewController-KeyboardAdditions */;
+			targetProxy = 4BF8342BE2AEA41CA454FB04CC9F4AD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CDAB5613991E411E5990BAF694995C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		52B6B42269EDAD0BA9CA19DA9196D4E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B93FC9172B3D23C2EDE21F6D36485F60 /* Pods-Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5DE26007DF811515EAEC87F866D1586D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D85A9EB8140F158398EA178A4F07B3B /* UIViewController-KeyboardAdditions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewController-KeyboardAdditions/UIViewController-KeyboardAdditions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B62A85C412D689EF418FA67DA770A41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B484FE9FB8DA5F540A3A74FD2A602C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE72118FFD7D1E091B72D1280850391 /* Pods-UIViewController-KeyboardAdditions.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B78A56EFEC3804FF243B3CA3BF50CEDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13A72C6FFCE77C52033F0C774CCA0BD2 /* Pods-UIViewController-KeyboardAdditions.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE8507F6D95AC7EDE13E5FED9B9EC5A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D85A9EB8140F158398EA178A4F07B3B /* UIViewController-KeyboardAdditions.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/UIViewController-KeyboardAdditions/UIViewController-KeyboardAdditions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB41204D69E35DE68428EE1557EA93E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F0ADB718D04DF0D2DAF488BE951B7A7 /* Pods-Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0406DEF8ADE0C8C312EEA177CCDA0108 /* Build configuration list for PBXNativeTarget "UIViewController-KeyboardAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE8507F6D95AC7EDE13E5FED9B9EC5A9 /* Debug */,
+				5DE26007DF811515EAEC87F866D1586D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CDAB5613991E411E5990BAF694995C5 /* Debug */,
+				7B62A85C412D689EF418FA67DA770A41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F47A51E3C7A76EAB585EED89C80AAF /* Build configuration list for PBXNativeTarget "Pods-Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52B6B42269EDAD0BA9CA19DA9196D4E2 /* Debug */,
+				FB41204D69E35DE68428EE1557EA93E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C595F431F400A68C3DF8138A96204EEB /* Build configuration list for PBXNativeTarget "Pods-UIViewController-KeyboardAdditions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B484FE9FB8DA5F540A3A74FD2A602C02 /* Debug */,
+				B78A56EFEC3804FF243B3CA3BF50CEDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

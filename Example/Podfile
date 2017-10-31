@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
 
-target 'UIViewController-KeyboardAdditions', :exclusive => true do
+platform :ios, '8.3'
+
+target 'UIViewController-KeyboardAdditions' do
   pod "UIViewController-KeyboardAdditions", :path => "../"
 end
 
-target 'Tests', :exclusive => true do
+target 'Tests' do
   pod "UIViewController-KeyboardAdditions", :path => "../"
-
-
 end
