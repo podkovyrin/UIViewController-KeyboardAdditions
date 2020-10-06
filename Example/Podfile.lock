@@ -1,16 +1,16 @@
 PODS:
-  - UIViewController-KeyboardAdditions (1.2.1)
+  - UIViewController-KeyboardAdditions (1.2.2)
 
 DEPENDENCIES:
   - UIViewController-KeyboardAdditions (from `../`)
 
 EXTERNAL SOURCES:
   UIViewController-KeyboardAdditions:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  UIViewController-KeyboardAdditions: a691dc7e63a49854d341455a778ee8497dfc4662
+  UIViewController-KeyboardAdditions: 51ee7b1c35d680799b059af06cf775a5e58997d1
 
-PODFILE CHECKSUM: 31b44da567ac562f40a81d05a5db72ccf911f1d1
+PODFILE CHECKSUM: a9e2190d4426d3876de9735f8baabbd15fe158f3
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.9.3

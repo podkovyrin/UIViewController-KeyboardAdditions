@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UIViewController-KeyboardAdditions"
-  s.version          = "1.2.1"
+  s.version          = "1.2.2"
   s.summary          = "Tiny UIViewController category that provides handy way for keyboard handling logic."
   s.description      = <<-DESC
                        `UIViewController+KeyboardAdditions` category simplifies keyboard handling logic by extending UIViewController class with several simple methods.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/podkovyrin/UIViewController-KeyboardAdditions.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/podkovyr'
 
-  s.platform     = :ios, '8.3'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
