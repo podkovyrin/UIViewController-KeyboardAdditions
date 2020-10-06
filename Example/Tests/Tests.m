@@ -6,4 +6,3 @@
 //  Copyright (c) 2014 Andrew Podkovyrin. All rights reserved.
 //
 
-${TEST_EXAMPLE}
