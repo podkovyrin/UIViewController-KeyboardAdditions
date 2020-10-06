@@ -1,6 +1,6 @@
 {
   "name": "UIViewController-KeyboardAdditions",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "summary": "Tiny UIViewController category that provides handy way for keyboard handling logic.",
   "description": "`UIViewController+KeyboardAdditions` category simplifies keyboard handling logic by extending UIViewController class with several simple methods.",
   "homepage": "https://github.com/podkovyrin/UIViewController-KeyboardAdditions",
@@ -10,11 +10,11 @@
   },
   "source": {
     "git": "https://github.com/podkovyrin/UIViewController-KeyboardAdditions.git",
-    "tag": "1.2.1"
+    "tag": "1.2.2"
   },
   "social_media_url": "https://twitter.com/podkovyr",
   "platforms": {
-    "ios": "8.3"
+    "ios": "9.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
