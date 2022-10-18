@@ -18,6 +18,7 @@ let package = Package(
 			dependencies: [],
 			path: "Pod",
 			sources: ["Classes"],
+			publicHeadersPath: "Classes",
 			cSettings: [
 				.headerSearchPath("Classes")
 			]
